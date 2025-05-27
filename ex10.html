@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Formatting using Inline CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+            background-repeat: repeat;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #8B0000;
+            color: white;
+            text-align: left;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .content-section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .orange-section {
+            background-color: #FFA500;
+            color: white;
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        .yellow-section {
+            background-color: #FFFF00;
+            color: black;
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        .transparent-section {
+            background-color: rgba(255, 255, 255, 0.7);
+            color: blue;
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        p {
+            margin: 0;
+            text-indent: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        Basic Formatting using Inline CSS
+    </header>
+
+    <div class="content-section orange-section">
+        <p>On the lorem tab, the galleries include some that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Styles gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.</p>
+    </div>
+
+    <div class="content-section yellow-section">
+        <p>On the lorem tab, the galleries include some that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Styles gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.</p>
+    </div>
+
+    <div class="content-section transparent-section">
+        <p>On the lorem tab, the galleries include some that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look. You can easily change the formatting of selected text in the document text by choosing a look for the selected text from the Quick Styles gallery on the Home tab. You can also format text directly by using the other controls on the Home tab. Most controls offer a choice of using the look from the current theme or using a format that you specify directly. To change the overall look of your document, choose new Theme elements on the Page Layout tab. To change the looks available in the Quick Styles gallery, use the Change Current Quick Style Set command. Both the Themes gallery and the Quick Styles gallery provide reset commands so that you can always restore the look of your document to the original contained in your current template.</p>
+    </div>
+
+</body>
+</html>
